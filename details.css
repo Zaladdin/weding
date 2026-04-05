@@ -256,6 +256,10 @@ img {
     margin-bottom: 4px;
 }
 
+.timeline-item__time:empty {
+    display: none;
+}
+
 .timeline-item__label {
     width: 100%;
     max-width: 120px;

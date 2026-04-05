@@ -64,45 +64,37 @@
                 dateLocation: {
                     title: "Дата и место",
                     dateLabel: "дата",
-                    dateValue: "15 августа 2026",
+                    dateValue: "9 августа",
                     ceremonyLabel: "церемония",
-                    ceremonyValue: "Подробности о месте церемонии будут отправлены ближе к дате.<br>Баку, Азербайджан",
+                    ceremonyValue: "14:00&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "вечер",
-                    receptionValue: "Праздничный ужин и вечерняя программа пройдут после церемонии.<br>Баку, Азербайджан"
+                    receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
                 },
                 timeline: {
                     title: "Тайминг дня",
                     meet: {
-                        time: "12:30 PM",
+                        time: "14:00",
                         label: "Сбор гостей"
                     },
                     ceremony: {
-                        time: "1:30 PM",
+                        time: "14:30",
                         label: "Церемония"
                     },
                     cocktails: {
-                        time: "2:00 PM",
-                        label: "Коктейли"
+                        time: "",
+                        label: "Фуршет"
                     },
                     photos: {
-                        time: "2:30 PM",
+                        time: "",
                         label: "Фотографии"
                     },
                     dinner: {
-                        time: "4:00 PM",
-                        label: "Ужин"
-                    },
-                    cake: {
-                        time: "4:30 PM",
-                        label: "Торт"
-                    },
-                    party: {
-                        time: "6:00 PM",
-                        label: "Вечеринка"
+                        time: "",
+                        label: "Ресторан"
                     },
                     farewell: {
-                        time: "1:00 AM",
-                        label: "Завершение вечера"
+                        time: "",
+                        label: "Прощание с гостями"
                     }
                 },
                 directions: {
@@ -183,45 +175,37 @@
                 dateLocation: {
                     title: "Tarix və məkan",
                     dateLabel: "tarix",
-                    dateValue: "15 avqust 2026",
+                    dateValue: "9 avqust",
                     ceremonyLabel: "mərasim",
-                    ceremonyValue: "Mərasim məkanının dəqiq ünvanını tarixə yaxın paylaşacağıq.<br>Bakı, Azərbaycan",
-                    receptionLabel: "ziyafət",
-                    receptionValue: "Şam yeməyi və axşam proqramı mərasimdən sonra davam edəcək.<br>Bakı, Azərbaycan"
+                    ceremonyValue: "14:00&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
+                    receptionLabel: "axşam",
+                    receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
                 },
                 timeline: {
                     title: "Günün planı",
                     meet: {
-                        time: "12:30 PM",
+                        time: "14:00",
                         label: "Qonaqların gəlişi"
                     },
                     ceremony: {
-                        time: "1:30 PM",
+                        time: "14:30",
                         label: "Mərasim"
                     },
                     cocktails: {
-                        time: "2:00 PM",
-                        label: "Kokteyllər"
+                        time: "",
+                        label: "Furşet"
                     },
                     photos: {
-                        time: "2:30 PM",
+                        time: "",
                         label: "Şəkillər"
                     },
                     dinner: {
-                        time: "4:00 PM",
-                        label: "Şam yeməyi"
-                    },
-                    cake: {
-                        time: "4:30 PM",
-                        label: "Tort"
-                    },
-                    party: {
-                        time: "6:00 PM",
-                        label: "Parti"
+                        time: "",
+                        label: "Restoran"
                     },
                     farewell: {
-                        time: "1:00 AM",
-                        label: "Axşamın sonu"
+                        time: "",
+                        label: "Qonaqlarla vidalaşma"
                     }
                 },
                 directions: {
