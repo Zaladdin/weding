@@ -1,0 +1,160 @@
+:root {
+    --bg: #2c1411;
+    --text: #fefdfa;
+    --muted: #bebeb2;
+}
+
+/* ===== Fonts ===== */
+
+@font-face {
+    font-family: 'weregetting';
+    src: url('../fonts/weregettingmarried.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cursivename';
+    src: url('../fonts/cursivename.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===== Reset ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Layout ===== */
+
+.wrapper {
+    width: 100%;
+    max-width: 700px;
+    padding: 40px 20px;
+    text-align: center;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* ===== Text ===== */
+
+.subtitle {
+    font-family: 'weregetting', serif;
+    font-size: 19px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.names {
+    font-family: 'cursivename', serif;
+    line-height: 1.1;
+    margin-bottom: 36px;
+	font-size: 120px; 
+	font-weight: 400;
+	
+	
+	color: rgb(254, 253, 250); 
+	line-height: 74px; 
+	letter-spacing: 0em;
+	text-transform: none;
+}
+
+/* ===== Envelope ===== */
+
+.envelope-box {
+    position: relative;
+    display: inline-block;
+}
+
+.envelope {
+    width: 300px;
+    max-width: 80vw;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.envelope:active {
+    transform: scale(0.95);
+}
+
+/* ===== Seal ===== */
+
+.seal {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+}
+
+.seal img {
+    width: 100%;
+    height: auto;
+}
+
+.seal-initials {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'cursivename', serif;
+    font-size: 26px;
+    color: #7a7171;
+    letter-spacing: 0.05em;
+    pointer-events: none;
+}
+
+/* ===== Hint ===== */
+
+.hint {
+    font-family: 'weregetting', serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+/* ===== Anim ===== */
+
+.fade-out {
+    opacity: 0;
+    transform: scale(0.96);
+    pointer-events: none;
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 480px) {
+    .names {
+        font-size: 40px;
+    }
+
+    .envelope {
+        width: 240px;
+    }
+
+    .seal {
+        width: 60px;
+        height: 60px;
+    }
+
+    .seal-initials {
+        font-size: 20px;
+    }
+}
