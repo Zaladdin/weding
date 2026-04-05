@@ -1987,17 +1987,17 @@ svg {
   }
 
   .details-editorial__polaroid--top{
-    width:22%;
-    top:12%;
-    right:20%;
-    transform:rotate(-11deg);
+    width:40%;
+    top:25%;
+    right:6%;
+    transform:rotate(-17deg);
   }
 
   .details-editorial__polaroid--bottom{
-    width:35%;
-    top:29%;
-    right:8%;
-    transform:rotate(12deg);
+    width:39%;
+    top:52%;
+    right:-3%;
+    transform:rotate(28deg);
   }
 
   .story-section{
