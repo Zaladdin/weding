@@ -1255,6 +1255,7 @@ svg {
   .rsvp-section{
     min-height:auto;
     padding:56px 16px;
+    margin-bottom:50px !important;
   }
 
   .envelope-container{
@@ -1844,6 +1845,7 @@ svg {
   .rsvp-section{
     min-height:auto;
     padding:56px 20px;
+    margin-bottom:50px !important;
   }
 
   .details-editorial__stage{
@@ -1911,6 +1913,7 @@ svg {
 
   .rsvp-section{
     padding:48px 14px;
+    margin-bottom:50px !important;
   }
 
   .envelope-container{
@@ -2091,6 +2094,10 @@ svg {
 @media (max-width: 480px){
   .hero-mobile{
     width:100vw;
+  }
+
+  .rsvp-section{
+    margin-bottom:50px !important;
   }
 
   .intro-frame{
