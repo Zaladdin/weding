@@ -25,12 +25,12 @@
                     location: "Баку, Азербайджан"
                 },
                 intro: {
-                    lead: "Когда мы вступаем в новую главу нашей жизни, нам было бы очень приятно видеть вас рядом в этот особенный день. На этой странице вы найдёте всё важное: расписание, информацию о месте проведения, RSVP и ещё несколько приятных деталей.",
+                    lead: "Когда мы вступаем в новую главу нашей жизни, нам было бы очень приятно видеть вас рядом в этот особенный день. На этой странице вы найдёте всё важное: расписание, информацию о месте проведения и ещё несколько приятных деталей.",
                     closing: "За любовь, радость и начало нашей вечности!"
                 },
                 rsvp: {
-                    title: "Подтвердите<br>участие",
-                    envelopeAlt: "Конверт RSVP"
+                    title: "The Details",
+                    envelopeAlt: "Конверт с деталями"
                 },
                 story: {
                     title: "Наша<br>история"
@@ -41,8 +41,8 @@
                 },
                 modals: {
                     rsvp: {
-                        title: "RSVP",
-                        body: "Пожалуйста, сообщите нам, сможете ли вы разделить с нами этот особенный день. Нам не терпится отпраздновать его вместе с вами!"
+                        title: "The Details",
+                        body: "Здесь вы найдёте всю важную информацию о нашем свадебном дне: расписание, место проведения и многое другое."
                     },
                     details: {
                         title: "Детали",
@@ -77,12 +77,12 @@
                     location: "Bakı, Azərbaycan"
                 },
                 intro: {
-                    lead: "Həyatımızın bu yeni fəslinə qədəm qoyarkən, bu özəl günümüzdə yanımızda olmağınız bizim üçün böyük sevinc olar. Bu səhifədə sizə lazım olan hər şeyi tapacaqsınız: proqram, məkan haqqında məlumat, RSVP və bir neçə xoş detal.",
+                    lead: "Həyatımızın bu yeni fəslinə qədəm qoyarkən, bu özəl günümüzdə yanımızda olmağınız bizim üçün böyük sevinc olar. Bu səhifədə sizə lazım olan hər şeyi tapacaqsınız: proqram, məkan haqqında məlumat və bir neçə xoş detal.",
                     closing: "Sevgi, sevinc və əbədi yolumuzun başlanğıcına!"
                 },
                 rsvp: {
-                    title: "İştirakınızı<br>təsdiqləyin",
-                    envelopeAlt: "RSVP zərfi"
+                    title: "The Details",
+                    envelopeAlt: "Təfərrüatlar zərfi"
                 },
                 story: {
                     title: "Bizim<br>hekayəmiz"
@@ -93,8 +93,8 @@
                 },
                 modals: {
                     rsvp: {
-                        title: "RSVP",
-                        body: "Zəhmət olmasa, bu özəl günümüzdə bizimlə olub-olmayacağınızı bizə bildirin. Sizinlə birlikdə qeyd etməyi səbirsizliklə gözləyirik!"
+                        title: "The Details",
+                        body: "Burada toy günümüzlə bağlı bütün vacib məlumatları tapa bilərsiniz: proqram, məkan və digər vacib detallar."
                     },
                     details: {
                         title: "Təfərrüatlar",
