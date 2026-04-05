@@ -6,7 +6,8 @@
         ru: {
             meta: {
                 homeTitle: "Z & E | Приглашение",
-                invitationTitle: "Свадебное приглашение"
+                invitationTitle: "Свадебное приглашение",
+                detailsTitle: "The Details"
             },
             common: {
                 withLove: "С ЛЮБОВЬЮ",
@@ -53,12 +54,79 @@
                         body: "Наша история всё ещё пишется, и мы очень счастливы разделить эту главу вместе с вами."
                     }
                 }
+            },
+            details: {
+                hero: {
+                    title: "The Details",
+                    back: "< НАЗАД",
+                    imageAlt: "The Details"
+                },
+                dateLocation: {
+                    title: "Дата и место",
+                    dateLabel: "дата",
+                    dateValue: "15 августа 2026",
+                    ceremonyLabel: "церемония",
+                    ceremonyValue: "Подробности о месте церемонии будут отправлены ближе к дате.<br>Баку, Азербайджан",
+                    receptionLabel: "вечер",
+                    receptionValue: "Праздничный ужин и вечерняя программа пройдут после церемонии.<br>Баку, Азербайджан"
+                },
+                timeline: {
+                    title: "Тайминг дня",
+                    meet: {
+                        time: "12:30 PM",
+                        label: "Сбор гостей"
+                    },
+                    ceremony: {
+                        time: "1:30 PM",
+                        label: "Церемония"
+                    },
+                    cocktails: {
+                        time: "2:00 PM",
+                        label: "Коктейли"
+                    },
+                    photos: {
+                        time: "2:30 PM",
+                        label: "Фотографии"
+                    },
+                    dinner: {
+                        time: "4:00 PM",
+                        label: "Ужин"
+                    },
+                    cake: {
+                        time: "4:30 PM",
+                        label: "Торт"
+                    },
+                    party: {
+                        time: "6:00 PM",
+                        label: "Вечеринка"
+                    },
+                    farewell: {
+                        time: "1:00 AM",
+                        label: "Завершение вечера"
+                    }
+                },
+                directions: {
+                    title: "Как добраться",
+                    byCarLabel: "На машине",
+                    byCarBody: "Точный адрес площадки мы добавим здесь ближе к дате.<br>Для удобства рекомендуем сохранить адрес в навигаторе заранее.",
+                    byTaxiLabel: "На такси",
+                    byTaxiBody: "Если вы не планируете ехать на машине, удобнее всего добраться на такси.<br>Советуем заказать его заранее, особенно в вечернее время."
+                },
+                other: {
+                    title: "Дополнительная информация",
+                    dresscodeLabel: "дресс-код",
+                    dresscodeBody: "Будем рады видеть вас в cocktail или semi-formal образах: элегантно, празднично и комфортно для долгого вечера.<br>Просим по возможности избегать белого цвета."
+                },
+                footer: {
+                    photoAlt: "Zaladdin & Emiliya"
+                }
             }
         },
         az: {
             meta: {
                 homeTitle: "Z & E | Dəvət",
-                invitationTitle: "Toy dəvəti"
+                invitationTitle: "Toy dəvəti",
+                detailsTitle: "The Details"
             },
             common: {
                 withLove: "SEVGİ İLƏ",
@@ -105,6 +173,72 @@
                         body: "Bizim hekayəmiz hələ də yazılır və bu fəslimizi sizinlə bölüşməkdən çox xoşbəxtik."
                     }
                 }
+            },
+            details: {
+                hero: {
+                    title: "The Details",
+                    back: "< GERI",
+                    imageAlt: "The Details"
+                },
+                dateLocation: {
+                    title: "Tarix və məkan",
+                    dateLabel: "tarix",
+                    dateValue: "15 avqust 2026",
+                    ceremonyLabel: "mərasim",
+                    ceremonyValue: "Mərasim məkanının dəqiq ünvanını tarixə yaxın paylaşacağıq.<br>Bakı, Azərbaycan",
+                    receptionLabel: "ziyafət",
+                    receptionValue: "Şam yeməyi və axşam proqramı mərasimdən sonra davam edəcək.<br>Bakı, Azərbaycan"
+                },
+                timeline: {
+                    title: "Günün planı",
+                    meet: {
+                        time: "12:30 PM",
+                        label: "Qonaqların gəlişi"
+                    },
+                    ceremony: {
+                        time: "1:30 PM",
+                        label: "Mərasim"
+                    },
+                    cocktails: {
+                        time: "2:00 PM",
+                        label: "Kokteyllər"
+                    },
+                    photos: {
+                        time: "2:30 PM",
+                        label: "Şəkillər"
+                    },
+                    dinner: {
+                        time: "4:00 PM",
+                        label: "Şam yeməyi"
+                    },
+                    cake: {
+                        time: "4:30 PM",
+                        label: "Tort"
+                    },
+                    party: {
+                        time: "6:00 PM",
+                        label: "Parti"
+                    },
+                    farewell: {
+                        time: "1:00 AM",
+                        label: "Axşamın sonu"
+                    }
+                },
+                directions: {
+                    title: "Necə gəlmək olar",
+                    byCarLabel: "Avtomobillə",
+                    byCarBody: "Məkanın dəqiq ünvanını tarixə yaxın burada əlavə edəcəyik.<br>Ünvanı əvvəlcədən naviqasiyada saxlamağınızı tövsiyə edirik.",
+                    byTaxiLabel: "Taksi ilə",
+                    byTaxiBody: "Əgər avtomobillə gəlmirsinizsə, ən rahat seçim taksidir.<br>Xüsusilə axşam saatları üçün öncədən sifariş verməyi tövsiyə edirik."
+                },
+                other: {
+                    title: "Əlavə məlumat",
+                    dresscodeLabel: "geyim tərzi",
+                    dresscodeBody: "Sizi cocktail və ya semi-formal üslubda görməkdən məmnun olarıq: zərif, bayram ab-havalı və rahat.<br>Mümkünsə, ağ rəngdən uzaq durmağınızı xahiş edirik."
+                },
+                footer: {
+                    photoAlt: "Zaladdin & Emiliya"
+                }
             }
         }
     };
@@ -135,8 +269,13 @@
 
         document.documentElement.lang = language;
 
-        const titleKey = page === "home" ? "meta.homeTitle" : "meta.invitationTitle";
-        const translatedTitle = getValue(dictionary, titleKey);
+        const titleKeyByPage = {
+            home: "meta.homeTitle",
+            invitation: "meta.invitationTitle",
+            details: "meta.detailsTitle"
+        };
+        const titleKey = titleKeyByPage[page];
+        const translatedTitle = titleKey ? getValue(dictionary, titleKey) : undefined;
 
         if (translatedTitle) {
             document.title = translatedTitle;

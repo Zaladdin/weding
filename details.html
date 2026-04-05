@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Details</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&amp;family=Cormorant+Garamond:wght@300;400;500;600;700&amp;family=Dancing+Script:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="details.css">
+</head>
+<body data-page="details">
+
+<div class="language-switcher" aria-label="Language switcher">
+    <button class="language-switcher__button" type="button" data-lang="ru">RU</button>
+    <button class="language-switcher__button" type="button" data-lang="az">AZ</button>
+</div>
+
+<main class="details-shell">
+    <div class="details-mobile">
+        <section class="details-hero">
+            <img class="details-hero__image" src="details-assets/hero.jpg" alt="The Details" data-i18n-alt="details.hero.imageAlt">
+            <div class="details-hero__overlay"></div>
+            <div class="details-hero__content">
+                <a class="details-hero__back" href="page-2.html" data-i18n="details.hero.back">&lt; НАЗАД</a>
+                <h1 class="details-hero__title" data-i18n="details.hero.title">The Details</h1>
+            </div>
+        </section>
+
+        <div class="details-content">
+            <section class="details-block details-block--date">
+                <h2 class="details-section-title" data-i18n="details.dateLocation.title">Дата и место</h2>
+
+                <div class="details-card">
+                    <p class="details-card__label" data-i18n="details.dateLocation.dateLabel">date</p>
+                    <p class="details-card__value" data-i18n="details.dateLocation.dateValue">15 августа 2026</p>
+                </div>
+
+                <div class="details-card">
+                    <p class="details-card__label" data-i18n="details.dateLocation.ceremonyLabel">церемония</p>
+                    <p class="details-card__value" data-i18n-html="details.dateLocation.ceremonyValue">Подробности о месте церемонии будут отправлены ближе к дате.<br>Баку, Азербайджан</p>
+                </div>
+
+                <div class="details-card">
+                    <p class="details-card__label" data-i18n="details.dateLocation.receptionLabel">вечер</p>
+                    <p class="details-card__value" data-i18n-html="details.dateLocation.receptionValue">Праздничный ужин и вечерняя программа пройдут после церемонии.<br>Баку, Азербайджан</p>
+                </div>
+            </section>
+
+            <section class="details-block">
+                <h2 class="details-section-title" data-i18n="details.timeline.title">Тайминг дня</h2>
+
+                <div class="timeline-grid">
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-meet.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.meet.time">12:30 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.meet.label">Сбор гостей</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-ceremony.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.ceremony.time">1:30 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.ceremony.label">Церемония</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-cocktails.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.cocktails.time">2:00 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.cocktails.label">Коктейли</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-photos.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.photos.time">2:30 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.photos.label">Фотографии</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-dinner.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.dinner.time">4:00 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.dinner.label">Ужин</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-cake.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.cake.time">4:30 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.cake.label">Торт</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-party.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.party.time">6:00 PM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.party.label">Вечеринка</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__icon-wrap">
+                            <img class="timeline-item__icon" src="details-assets/icon-farewells.svg" alt="" aria-hidden="true">
+                        </div>
+                        <p class="timeline-item__time" data-i18n="details.timeline.farewell.time">1:00 AM</p>
+                        <p class="timeline-item__label" data-i18n="details.timeline.farewell.label">Завершение вечера</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="details-block">
+                <h2 class="details-section-title" data-i18n="details.directions.title">Как добраться</h2>
+
+                <img class="details-feature-icon" src="details-assets/icon-car.svg" alt="" aria-hidden="true">
+
+                <div class="details-card details-card--narrow">
+                    <p class="details-card__label" data-i18n="details.directions.byCarLabel">На машине</p>
+                    <p class="details-card__value" data-i18n-html="details.directions.byCarBody">Точный адрес площадки мы добавим здесь ближе к дате.<br>Для удобства рекомендуем сохранить адрес в навигаторе заранее.</p>
+                </div>
+
+                <div class="details-card details-card--narrow">
+                    <p class="details-card__label" data-i18n="details.directions.byTaxiLabel">На такси</p>
+                    <p class="details-card__value" data-i18n-html="details.directions.byTaxiBody">Если вы не планируете ехать на машине, удобнее всего добраться на такси.<br>Советуем заказать его заранее, особенно в вечернее время.</p>
+                </div>
+            </section>
+
+            <section class="details-block">
+                <h2 class="details-section-title" data-i18n="details.other.title">Дополнительная информация</h2>
+
+                <div class="details-card details-card--narrow">
+                    <p class="details-card__label" data-i18n="details.other.dresscodeLabel">дресс-код</p>
+                    <p class="details-card__value" data-i18n-html="details.other.dresscodeBody">Будем рады видеть вас в cocktail или semi-formal образах: элегантно, празднично и комфортно для долгого вечера.<br>Просим по возможности избегать белого цвета.</p>
+                </div>
+
+                <div class="details-swatches" aria-hidden="true">
+                    <span class="details-swatches__item details-swatches__item--cream"></span>
+                    <span class="details-swatches__item details-swatches__item--sage"></span>
+                    <span class="details-swatches__item details-swatches__item--olive"></span>
+                    <span class="details-swatches__item details-swatches__item--rose"></span>
+                    <span class="details-swatches__item details-swatches__item--wine"></span>
+                </div>
+            </section>
+
+            <section class="details-footer">
+                <div class="details-photo-card">
+                    <img class="details-photo-card__frame" src="story-frame.png" alt="" aria-hidden="true">
+                    <img class="details-photo-card__image" src="details-assets/footer-photo.png" alt="Zaladdin and Emiliya" data-i18n-alt="details.footer.photoAlt">
+                </div>
+
+                <p class="details-footer__with-love" data-i18n="common.withLove">С ЛЮБОВЬЮ</p>
+                <p class="details-footer__names">Zaladdin &amp; Emiliya</p>
+                <p class="details-footer__contact" data-i18n="invitation.footer.contact">По всем вопросам свяжитесь напрямую с Zaladdin или Emiliya.</p>
+            </section>
+        </div>
+    </div>
+</main>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>
