@@ -892,7 +892,6 @@ svg {
 .hero{
   position:relative;
   overflow:hidden;
-  background:none !important;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -1819,7 +1818,6 @@ svg {
   align-items:flex-start !important;
   min-height:auto !important;
   padding:0 !important;
-  background:#191713 !important;
   overflow:hidden;
 }
 
@@ -1832,7 +1830,6 @@ svg {
   width:min(100vw, 430px);
   aspect-ratio:1200 / 1522;
   overflow:hidden;
-  background:#1d1a16;
 }
 
 .hero-mobile__image{
