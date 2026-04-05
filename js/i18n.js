@@ -25,7 +25,7 @@
                     location: "Баку, Азербайджан"
                 },
                 intro: {
-                    lead: "Когда мы вступаем в новую главу нашей жизни, нам было бы очень приятно видеть вас рядом в этот особенный день. На этой странице вы найдёте всё важное: расписание, информацию о месте проведения и ещё несколько приятных деталей.",
+                    lead: "Вступая в новую главу нашей жизни, нам было бы искренне приятно разделить этот особенный день с вами. На этой странице вы найдёте всю важную информацию: расписание мероприятия, детали о месте проведения и ещё несколько приятных сюрпризов.",
                     closing: "За любовь, радость и начало нашей вечности!"
                 },
                 rsvp: {
@@ -33,7 +33,7 @@
                     envelopeAlt: "Конверт с деталями"
                 },
                 story: {
-                    title: "Наша<br>история"
+                    title: "Our<br>History"
                 },
                 footer: {
                     contact: "По всем вопросам свяжитесь напрямую с Zaladdin или Emiliya.",
@@ -49,7 +49,7 @@
                         body: "Здесь вы найдёте всю важную информацию о нашем свадебном дне: расписание, место проведения и многое другое."
                     },
                     story: {
-                        title: "Наша история",
+                        title: "Our History",
                         body: "Наша история всё ещё пишется, и мы очень счастливы разделить эту главу вместе с вами."
                     }
                 }
@@ -77,7 +77,7 @@
                     location: "Bakı, Azərbaycan"
                 },
                 intro: {
-                    lead: "Həyatımızın bu yeni fəslinə qədəm qoyarkən, bu özəl günümüzdə yanımızda olmağınız bizim üçün böyük sevinc olar. Bu səhifədə sizə lazım olan hər şeyi tapacaqsınız: proqram, məkan haqqında məlumat və bir neçə xoş detal.",
+                    lead: "Həyatımızın yeni bir fəslinə qədəm qoyarkən, bu özəl günü sizinlə bölüşmək bizim üçün səmimi bir sevinc olar. Bu səhifədə siz tədbirin proqramı, məkanla bağlı detallar və bir neçə xoş sürpriz də daxil olmaqla bütün vacib məlumatları tapa bilərsiniz.",
                     closing: "Sevgi, sevinc və əbədi yolumuzun başlanğıcına!"
                 },
                 rsvp: {
@@ -85,7 +85,7 @@
                     envelopeAlt: "Təfərrüatlar zərfi"
                 },
                 story: {
-                    title: "Bizim<br>hekayəmiz"
+                    title: "Our<br>History"
                 },
                 footer: {
                     contact: "Hər hansı sualınız olarsa, birbaşa Zaladdin və ya Emiliya ilə əlaqə saxlayın.",
@@ -101,7 +101,7 @@
                         body: "Burada toy günümüzlə bağlı bütün vacib məlumatları tapa bilərsiniz: proqram, məkan və digər vacib detallar."
                     },
                     story: {
-                        title: "Bizim hekayəmiz",
+                        title: "Our History",
                         body: "Bizim hekayəmiz hələ də yazılır və bu fəslimizi sizinlə bölüşməkdən çox xoşbəxtik."
                     }
                 }

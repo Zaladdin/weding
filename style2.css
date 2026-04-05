@@ -334,7 +334,8 @@ section {
     left: 12%;
    /* transform: translateX(-50%);*/
     color: #652b22;
-    font-family: 'cursivename2', serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
     font-size: 97px;
     text-align: center;
     /* width: 250px; */
@@ -654,9 +655,9 @@ section {
 p.fade-in-p{
       margin: 0;
     /* width: 350px; */
-    font-family: 'cursivename', serif;
-    font-weight: 400;
-    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-style: normal;
     font-size: 82px;
     line-height: 0.8;
     opacity: 0;
