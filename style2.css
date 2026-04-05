@@ -1639,15 +1639,17 @@ svg {
   }
 
   .details-editorial__polaroid--top{
-    width:22%;
-    top:10%;
-    right:16%;
+    width:40%;
+    top:25%;
+    right:6%;
+    transform:rotate(-17deg);
   }
 
   .details-editorial__polaroid--bottom{
-    width:30%;
-    top:28%;
-    right:8%;
+    width:39%;
+    top:52%;
+    right:-3%;
+    transform:rotate(28deg);
   }
 }
 
