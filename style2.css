@@ -113,7 +113,7 @@ section {
 .hero{
         min-width: 100%;
         min-height: 77vh;
-        background: url(photo-bg-hero.png) center / cover no-repeat;
+        background: url(photo-bg-hero.png) center / cover no-repeat !important;
         background-size: cover;
         background-position: center;
         display: flex;
