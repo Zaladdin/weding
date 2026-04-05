@@ -321,13 +321,17 @@ img {
 }
 
 .details-photo-card__frame {
+    position: relative;
+    z-index: 2;
     width: 100%;
     height: auto;
     filter: brightness(0) invert(1);
+    pointer-events: none;
 }
 
 .details-photo-card__image {
     position: absolute;
+    z-index: 1;
     top: 14.5%;
     left: 15.5%;
     width: 69%;

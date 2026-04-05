@@ -64,7 +64,7 @@
                 dateLocation: {
                     title: "Дата и место",
                     dateLabel: "дата",
-                    dateValue: "9 августа",
+                    dateValue: "09.08.2026",
                     ceremonyLabel: "церемония",
                     ceremonyValue: "14:00&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "вечер",
@@ -175,7 +175,7 @@
                 dateLocation: {
                     title: "Tarix və məkan",
                     dateLabel: "tarix",
-                    dateValue: "9 avqust",
+                    dateValue: "09.08.2026",
                     ceremonyLabel: "mərasim",
                     ceremonyValue: "14:00&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "axşam",
