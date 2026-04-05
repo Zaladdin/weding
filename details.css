@@ -316,15 +316,19 @@ img {
 .details-photo-card {
     position: relative;
     width: min(272px, 78vw);
+    aspect-ratio: 799 / 795;
     margin: 0 auto 24px;
     filter: drop-shadow(0 16px 28px var(--details-shadow));
+    isolation: isolate;
 }
 
 .details-photo-card__frame {
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    inset: 0;
+    z-index: 3;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
     filter: brightness(0) invert(1);
     pointer-events: none;
 }
@@ -332,10 +336,10 @@ img {
 .details-photo-card__image {
     position: absolute;
     z-index: 1;
-    top: 14.5%;
-    left: 15.5%;
-    width: 69%;
-    height: 68%;
+    top: 16.2%;
+    left: 17.2%;
+    width: 65.6%;
+    height: 64.8%;
     object-fit: cover;
     filter: grayscale(1) contrast(1.08);
 }
