@@ -158,3 +158,74 @@ body {
         font-size: 20px;
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 0;
+    }
+
+    .wrapper {
+        max-width: 420px;
+        padding: 24px 16px 32px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .names {
+        font-size: clamp(52px, 13vw, 84px);
+        line-height: 0.9;
+        margin-bottom: 24px;
+    }
+
+    .envelope {
+        width: min(280px, 78vw);
+        max-width: min(280px, 78vw);
+    }
+
+    .seal {
+        width: 64px;
+        height: 64px;
+    }
+
+    .seal-initials {
+        font-size: 22px;
+    }
+
+    .hint {
+        font-size: 11px;
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .wrapper {
+        padding: 20px 14px 28px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        letter-spacing: 0.12em;
+    }
+
+    .names {
+        font-size: clamp(42px, 12vw, 60px);
+        margin-bottom: 20px;
+    }
+
+    .envelope {
+        width: min(248px, 76vw);
+        max-width: min(248px, 76vw);
+    }
+
+    .seal {
+        width: 56px;
+        height: 56px;
+    }
+
+    .seal-initials {
+        font-size: 19px;
+    }
+}
