@@ -140,7 +140,7 @@ img {
 .details-hero__title,
 .details-section-title,
 .details-footer__names {
-    font-family: "cursivename", "Dancing Script", cursive;
+    font-family: "cursivename", serif;
     font-style: italic;
     font-weight: 400;
     line-height: 0.95;
@@ -166,7 +166,7 @@ img {
 }
 
 .details-section-title {
-    font-family: "cursivename", "Dancing Script", cursive;
+    font-family: "cursivename", serif;
     font-size: clamp(52px, 13vw, 70px);
     color: #fffaf2;
     margin-bottom: 24px;
