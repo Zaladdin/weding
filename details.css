@@ -165,7 +165,7 @@ img {
 }
 
 .details-section-title {
-    font-size: clamp(44px, 10.8vw, 60px);
+    font-size: clamp(52px, 13vw, 70px);
     color: #fffaf2;
     margin-bottom: 24px;
 }

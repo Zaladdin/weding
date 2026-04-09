@@ -22,7 +22,7 @@
                 hero: {
                     alt: "Свадебное приглашение",
                     names: "Zaladdin & Emiliya",
-                    date: "15 августа 2026",
+                    date: "09.08.2026",
                     location: "Баку, Азербайджан"
                 },
                 intro: {
@@ -133,7 +133,7 @@
                 hero: {
                     alt: "Toy dəvəti",
                     names: "Zaladdin & Emiliya",
-                    date: "15 avqust 2026",
+                    date: "09.08.2026",
                     location: "Bakı, Azərbaycan"
                 },
                 intro: {
