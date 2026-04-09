@@ -166,8 +166,12 @@ img {
 }
 
 .details-section-title {
-    font-family: 'cursivename', serif;
-    font-size: clamp(52px, 13vw, 70px);
+    font-family: "cursivename", serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: clamp(38px, 9.2vw, 52px) !important;
+    line-height: 0.95;
+    letter-spacing: 0;
     color: #fffaf2;
     margin-bottom: 24px;
 }
