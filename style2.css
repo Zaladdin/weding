@@ -253,12 +253,14 @@ section {
 }
 
 .intro-frame img.photo{
-    position: absolute;
-    top: 12%;
-    left: 12%;
-    width: 76%;
-    height: 76%;
-    object-fit: cover;
+    scale: 1.6;
+    position: absolute !important;
+    top: 24% !important;
+    left: 26% !important;
+    width: 52% !important;
+    height: 50% !important;
+    object-fit: cover !important;
+    z-index: 1 !important;
     border-radius: 2px;
 }
 
@@ -995,11 +997,12 @@ svg {
   pointer-events:none;
 }
 .intro-frame img.photo{
+  scale:1.6;
   position:absolute !important;
-  top:12% !important;
-  left:12% !important;
-  width:76% !important;
-  height:76% !important;
+  top:24% !important;
+  left:26% !important;
+  width:52% !important;
+  height:50% !important;
   object-fit:cover !important;
   z-index:1 !important;
 }

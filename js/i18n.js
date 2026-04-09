@@ -14,7 +14,7 @@
                 clickHere: "НАЖМИТЕ ЗДЕСЬ"
             },
             home: {
-                subtitle: "мы женимся",
+                subtitle: "свадебное приглашение",
                 hint: "нажмите на конверт, чтобы открыть",
                 envelopeAlt: "Конверт"
             },
@@ -73,11 +73,11 @@
                 timeline: {
                     title: "Тайминг дня",
                     meet: {
-                        time: "14:00",
+                        time: "14:30",
                         label: "Сбор гостей"
                     },
                     ceremony: {
-                        time: "14:30",
+                        time: "15:00",
                         label: "Церемония"
                     },
                     cocktails: {
@@ -94,7 +94,7 @@
                     },
                     farewell: {
                         time: "",
-                        label: "Прощание с гостями"
+                        label: "Завершение фуршета"
                     }
                 },
                 directions: {
@@ -107,7 +107,7 @@
                 other: {
                     title: "Дополнительная информация",
                     dresscodeLabel: "дресс-код",
-                    dresscodeBody: "Будем рады видеть вас в cocktail или semi-formal образах: элегантно, празднично и комфортно для долгого вечера.<br>Просим по возможности избегать белого цвета."
+                    dresscodeBody: "Будем рады видеть вас в палитре dress code, показанной ниже: элегантно, празднично и комфортно для тёплого летнего дня.<br>Ожидается яркое солнце, поэтому просим заранее нанести SPF и, по желанию, взять солнцезащитные очки."
                 },
                 footer: {
                     photoAlt: "Zaladdin & Emiliya"
@@ -125,7 +125,7 @@
                 clickHere: "BURAYA TOXUNUN"
             },
             home: {
-                subtitle: "biz evlənirik",
+                subtitle: "toy dəvəti",
                 hint: "açmaq üçün zərfə toxunun",
                 envelopeAlt: "Zərf"
             },
@@ -184,11 +184,11 @@
                 timeline: {
                     title: "Günün planı",
                     meet: {
-                        time: "14:00",
+                        time: "14:30",
                         label: "Qonaqların gəlişi"
                     },
                     ceremony: {
-                        time: "14:30",
+                        time: "15:00",
                         label: "Mərasim"
                     },
                     cocktails: {
@@ -205,7 +205,7 @@
                     },
                     farewell: {
                         time: "",
-                        label: "Qonaqlarla vidalaşma"
+                        label: "Furşetin sonu"
                     }
                 },
                 directions: {
@@ -218,7 +218,7 @@
                 other: {
                     title: "Əlavə məlumat",
                     dresscodeLabel: "geyim tərzi",
-                    dresscodeBody: "Sizi cocktail və ya semi-formal üslubda görməkdən məmnun olarıq: zərif, bayram ab-havalı və rahat.<br>Mümkünsə, ağ rəngdən uzaq durmağınızı xahiş edirik."
+                    dresscodeBody: "Sizi aşağıda göstərilən dress code rəng palitrasında görməkdən məmnun olarıq: zərif, bayram ab-havalı və isti yay gününə uyğun rahat obrazlar.<br>Havanın günəşli olacağı gözlənilir, buna görə SPF çəkməyinizi və istəsəniz gün eynəyi götürməyinizi xahiş edirik."
                 },
                 footer: {
                     photoAlt: "Zaladdin & Emiliya"
