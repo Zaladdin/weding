@@ -66,7 +66,7 @@
                     dateLabel: "дата",
                     dateValue: "09.08.2026",
                     ceremonyLabel: "церемония",
-                    ceremonyValue: "14:00&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
+                    ceremonyValue: "14:30&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "вечер",
                     receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
                 },
@@ -94,7 +94,7 @@
                     },
                     farewell: {
                         time: "",
-                        label: "Завершение фуршета"
+                        label: "Окончание праздника"
                     }
                 },
                 directions: {
@@ -177,7 +177,7 @@
                     dateLabel: "tarix",
                     dateValue: "09.08.2026",
                     ceremonyLabel: "mərasim",
-                    ceremonyValue: "14:00&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
+                    ceremonyValue: "14:30&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "axşam",
                     receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
                 },
@@ -205,7 +205,7 @@
                     },
                     farewell: {
                         time: "",
-                        label: "Furşetin sonu"
+                        label: "Bayramın sonu"
                     }
                 },
                 directions: {
