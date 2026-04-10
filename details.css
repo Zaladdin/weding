@@ -291,6 +291,7 @@ img {
 .details-swatches__item {
     width: 42px;
     height: 42px;
+    position: relative;
     border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -302,7 +303,8 @@ img {
 
 .details-swatches__item:hover,
 .details-swatches__item:focus-visible {
-    transform: scale(1.22);
+    transform: scale(3.4);
+    z-index: 5;
     box-shadow: 0 12px 22px rgba(0, 0, 0, 0.28);
 }
 
