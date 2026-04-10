@@ -294,24 +294,32 @@ img {
     box-shadow: inset 0 -4px 10px rgba(0, 0, 0, 0.12);
 }
 
-.details-swatches__item--cream {
-    background: #ded6c8;
+.details-swatches__item--gold {
+    background: #d4b15c;
 }
 
-.details-swatches__item--sage {
-    background: #a59e6f;
+.details-swatches__item--plum {
+    background: #7c4a62;
+}
+
+.details-swatches__item--cobalt {
+    background: #324ea7;
+}
+
+.details-swatches__item--sky {
+    background: #d8ebff;
+}
+
+.details-swatches__item--chocolate {
+    background: #3b2a28;
 }
 
 .details-swatches__item--olive {
-    background: #857646;
+    background: #74724c;
 }
 
-.details-swatches__item--rose {
-    background: #b78586;
-}
-
-.details-swatches__item--wine {
-    background: #7c160f;
+.details-swatches__item--blush {
+    background: #d5a6b8;
 }
 
 .details-footer {
