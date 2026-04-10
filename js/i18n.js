@@ -89,7 +89,7 @@
                         label: "Фотографии"
                     },
                     dinner: {
-                        time: "",
+                        time: "18:00",
                         label: "Ресторан"
                     },
                     farewell: {
@@ -200,7 +200,7 @@
                         label: "Şəkillər"
                     },
                     dinner: {
-                        time: "",
+                        time: "18:00",
                         label: "Restoran"
                     },
                     farewell: {
