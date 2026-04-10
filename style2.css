@@ -1930,6 +1930,118 @@ svg {
   margin-top:.3em;
 }
 
+.hero{
+  animation: heroBackgroundDrift 22s ease-in-out infinite alternate;
+}
+
+.hero-mobile__card{
+  animation: heroCardFloat 12s ease-in-out infinite;
+  will-change: transform;
+}
+
+.hero-mobile__ornament--top{
+  animation: ornamentDriftTop 15s ease-in-out infinite;
+}
+
+.hero-mobile__ornament--bottom{
+  animation: ornamentDriftBottom 15s ease-in-out infinite;
+}
+
+.intro-frame img.frame-bg{
+  animation: introFrameDrift 13s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.intro-frame img.photo{
+  animation: introPhotoDrift 14s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.envelope-img{
+  animation: envelopeBreath 11s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.seal{
+  animation: sealSway 9.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.envelope-container{
+  transition: transform 1.1s cubic-bezier(.22, 1, .36, 1), filter 1.1s ease;
+}
+
+.envelope-container:hover{
+  transform: scale(1.035) translateY(-4px);
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.12));
+}
+
+.back-link{
+  transition: letter-spacing .9s ease, opacity .9s ease;
+}
+
+.back-link:hover{
+  letter-spacing: .18em;
+  opacity: .86;
+}
+
+@keyframes heroBackgroundDrift {
+  0% { background-position: 50% 50%; }
+  100% { background-position: 53% 47%; }
+}
+
+@keyframes heroCardFloat {
+  0%, 100% { transform: translate(-50%, -50%) translateY(0); }
+  50% { transform: translate(-50%, -50%) translateY(-10px); }
+}
+
+@keyframes ornamentDriftTop {
+  0%, 100% { transform: translateX(-50%) rotate(0deg); opacity: .18; }
+  50% { transform: translateX(-50%) rotate(-2deg) translateY(-4px); opacity: .24; }
+}
+
+@keyframes ornamentDriftBottom {
+  0%, 100% { transform: translateX(-50%) rotate(180deg); opacity: .18; }
+  50% { transform: translateX(-50%) rotate(182deg) translateY(4px); opacity: .24; }
+}
+
+@keyframes introFrameDrift {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(-.8deg); }
+}
+
+@keyframes introPhotoDrift {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(7px) rotate(.8deg); }
+}
+
+@keyframes envelopeBreath {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-6px) scale(1.018); }
+}
+
+@keyframes sealSway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(4deg); }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .hero,
+  .hero-mobile__card,
+  .hero-mobile__ornament,
+  .intro-frame img.frame-bg,
+  .intro-frame img.photo,
+  .envelope-img,
+  .seal{
+    animation: none !important;
+  }
+
+  .envelope-container,
+  .back-link{
+    transition: none !important;
+  }
+}
+
 @media (max-width: 520px){
   .hero-mobile{
     width:100vw;
