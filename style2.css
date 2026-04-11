@@ -1958,12 +1958,14 @@ svg {
 }
 
 .envelope-img{
-  animation: envelopeBreath 11s ease-in-out infinite;
+  opacity: 1;
+  animation: fadeInUp 1.2s cubic-bezier(.77,0,.18,1) forwards, envelopeBreath 11s 1.2s ease-in-out infinite;
   transform-origin: center;
 }
 
 .seal{
-  animation: sealSway 9.5s ease-in-out infinite;
+  opacity: 1;
+  animation: fadeInUp 1.6s 0.5s cubic-bezier(.77,0,.18,1) forwards, sealSway 9.5s 2.1s ease-in-out infinite;
   transform-origin: center;
 }
 
