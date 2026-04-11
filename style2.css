@@ -335,23 +335,26 @@ section {
 
 .envelope-text{
     position: absolute;
-    top: 7%;
-    left: 12%;
-   /* transform: translateX(-50%);*/
-    color: #652b22;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 500;
-    font-size: 97px;
+    top: 4.5%;
+    left: 50%;
+    width: 62%;
+    transform: translateX(-50%);
+    color: #6a2e22;
+    font-family: 'cursivename', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 82px;
     text-align: center;
-    /* width: 250px; */
-    line-height: 0.8;
+    line-height: 0.76;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
 }
 
 .seal{
     position:absolute;
-    bottom:34%;
-    left:40%;
- /*   transform:translateX(-50%); */
+    bottom:28%;
+    left:50%;
+    transform:translateX(-50%);
     width:90px;
     height:90px;
 }
@@ -374,7 +377,7 @@ section {
 
 .click-here{
      position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Cormorant Garamond', serif;
@@ -1317,16 +1320,17 @@ svg {
 
   .envelope-text{
     left:50%;
-    top:6%;
+    top:5%;
     transform:translateX(-50%);
-    width:72%;
-    font-size:clamp(56px, 15vw, 84px);
+    width:64%;
+    font-size:clamp(48px, 13vw, 68px);
+    line-height:0.78;
   }
 
   .seal{
     width:72px;
     height:72px;
-    bottom:26%;
+    bottom:27%;
     left:50%;
     transform:translateX(-50%);
   }
@@ -1336,7 +1340,7 @@ svg {
   }
 
   .click-here{
-    bottom:8%;
+    bottom:7%;
     font-size:14px;
     letter-spacing:.16em;
   }
@@ -1466,13 +1470,14 @@ svg {
   }
 
   .envelope-text{
-    font-size:clamp(44px, 14vw, 62px);
+    width:66%;
+    font-size:clamp(40px, 12.4vw, 54px);
   }
 
   .seal{
     width:60px;
     height:60px;
-    bottom:27%;
+    bottom:28%;
   }
 
   .seal-initials{
@@ -2187,17 +2192,17 @@ svg {
   }
 
   .envelope-text{
-    top:7%;
+    top:5%;
     left:50%;
-    width:72%;
+    width:64%;
     transform:translateX(-50%);
-    font-size:clamp(3rem, 14vw, 5rem);
-    line-height:0.82;
+    font-size:clamp(2.8rem, 12.6vw, 4.15rem);
+    line-height:0.78;
   }
 
   .seal{
     left:50%;
-    bottom:26%;
+    bottom:27%;
     width:72px;
     height:72px;
     transform:translateX(-50%);
@@ -2208,7 +2213,7 @@ svg {
   }
 
   .click-here{
-    bottom:8%;
+    bottom:7%;
     font-size:12px;
     letter-spacing:0.18em;
   }
@@ -2386,13 +2391,14 @@ svg {
   }
 
   .envelope-text{
-    font-size:clamp(2.5rem, 13.2vw, 4.1rem);
+    width:68%;
+    font-size:clamp(2.25rem, 11.4vw, 3.45rem);
   }
 
   .seal{
     width:62px;
     height:62px;
-    bottom:27%;
+    bottom:28%;
   }
 
   .seal-initials{
