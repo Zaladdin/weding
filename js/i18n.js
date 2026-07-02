@@ -68,7 +68,7 @@
                     ceremonyLabel: "церемония",
                     ceremonyValue: "14:30&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "вечер",
-                    receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
+                    receptionValue: "18:00&nbsp;&nbsp;&nbsp;Altun Saray<br>Mikayil Aliyev 9b "
                 },
                 timeline: {
                     title: "Тайминг дня",
@@ -179,7 +179,7 @@
                     ceremonyLabel: "mərasim",
                     ceremonyValue: "14:30&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
                     receptionLabel: "axşam",
-                    receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
+                    receptionValue: "18:00&nbsp;&nbsp;&nbsp;Altun Saray<br> Mikayil Aliyev 9b"
                 },
                 timeline: {
                     title: "Günün planı",
